@@ -4154,7 +4154,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
 }
 
 .navbar > .container,
@@ -4171,16 +4171,19 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  background-color:goldenrod;
+  border-radius: 25px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
+  text-decoration:none;
+  background-color:#FFCC00;
 }
 
 .navbar-nav {
@@ -4201,6 +4204,13 @@ input[type="button"].btn-block {
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
+}
+
+/* NAV-ITEM SPACING */
+.navbar-nav > li{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0rem;
 }
 
 .navbar-text {

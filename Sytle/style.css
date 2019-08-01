@@ -35,8 +35,17 @@
     font-style: italic;
     font-family: 'Lora', 'Times New Roman', serif;}
   
-
-
+  /* PAGE FOOTER */
+  .page-footer {
+    background-color: whitesmoke;
+    border-top: 10px solid goldenrod;
+    margin-top: 50px;
+}
+.github-card {
+  border: 1rem solid gainsboro;
+  border-radius: 10px; 
+  background-color:gainsboro
+}
   .center {
     display: block;
     margin-left: auto;

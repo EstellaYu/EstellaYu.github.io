@@ -15,6 +15,8 @@
   text-rendering: auto;
   line-height: 1; }
 
+  
+
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
@@ -168,7 +170,11 @@
   line-height: 2em;
   position: relative;
   vertical-align: middle;
-  width: 2.5em; }
+  width: 2.5em;
+}
+.fa-stack:hover {
+  color:goldenrod;
+}
 
 .fa-stack-1x,
 .fa-stack-2x {
