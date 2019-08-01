@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
-    <title>HTML Bio</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML ESTELLA YU Bio</title>
 
+    <!--Bootstrap Core css-->
+    <link href="Sytle/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="Sytle/vendor/jquery/jquery.js"></script>
+    <script src="Sytle/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="Sytle/vendor/startbootstrap-clean-blog/scss/clean-blog.scss">
+    <!--Customize css-->
+    <link href="Sytle/vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+    <script src="Sytle/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Sytle/style.css">
+    <!--Animatino css-->
+    <link href="Sytle/vendor/animate.css" rel="stylesheet" type="text/css">
+    
+    
+    
+</head>
+<!--<img class="animated bounceInDown" src="Image/LOGO/NAME_logo/logo_transparent_background.png"
+              alt="Estella_logo" width="40%" height="40%">-->
 <body>
-    <h1>Hello</h1>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">        
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarResponsive" 
+                aria-controls="navbarResponsive" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                        <i class="fas fa-bars"> Menu</i>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html"><h4>Home</h4></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html"><h4>About</h3></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html"><h4>Projects</h4></a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="Image/Resume:CV/EstellaYuResume-Data.pdf"><h4>Resume</h4></a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><h4>Contact</h4></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+</nav>
+
+<!-- Page Header -->
+<header class="hero-image">
+        <div class="container">
+            <div class="hero-text">
+                <a href="index.html"><img class="center animated rubberBand" src="Image/LOGO/NAME_logo/white_logo_transparent_background.png"
+                alt="Estella_logo" sizes="40%"></a>
+                <h1 ><strong>Hi! This is Estella</strong></h1>
+                <h3>A <em>researcher</em> seeking beauty and simplisity in complex systems</h3>
+            </div>
+        </div>
+</header> 
+
+<!--Content -- Projects -->
+<div class="container-fluid">
+    <!--Project Header-->
+    <div class="row">
+        <div class="col" style="text-align: center; padding-top: 100px; padding-bottom: 50px">
+            <h1 
+                style="font-size: 50px; 
+                    text-shadow:lightcoral 1px 1px">
+                    <u>Feature Projects</u>
+            </h1>
+        </div>
+    </div>
+
+    <!--Project 1-->
+    <div class="row border project-border" style="background-color:mistyrose; border-color:mistyrose !important">
+        <div class="split left animated slideInLeft">
+            <div class="centered container">
+                <img src="Image/Projects/Airbnb/aibnb_profile.jpeg" alt="airbnb_profile_bg" 
+                    class="image" style="width: 750px">
+                <div class="middle">
+                        <h1>Where should you book your next Airbnb?</h1>
+                        <p><em>An <strong>Airbnb</strong> data visualization project</em></p>
+                        <p>| Python | Pandas | Matplotlib | Seaborn | Google API | Animation | </p>
+                        <a href="#"><button type="button" class="btn btn-danger">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="split right">
+            <div class="centered" style="position: absolute;left: 380px; top: 0px">
+                <img src="Image/Projects/Airbnb/airbnb_listing.gif" alt="airbnb_historic_gif" 
+                width=1000px>
+            </div>
+        </div>       
+    </div>
+
+    <!--Project 2-->
+    <div class="row border project-border" style="background-color: rgb(252, 198, 192); border-color: white !important">
+        <div class="split right">
+            <div class="centered" style="position: absolute;left: 380px; top: -10px">
+                <img src="Image/Projects/Airbnb/airbnb_listing.gif" alt="airbnb_historic_gif" 
+                width=1000px; height=cover>
+            </div>
+        </div>     
+        <div class="split left">
+            <div class="centered container">
+                <img src="Image/Projects/Airbnb/aibnb_profile.jpeg" alt="airbnb_profile_bg" 
+                    class="image" style="width: 750px">
+                <div class="middle">
+                        <h1>OWWE</h1>
+                        <p>One-Click World Weather Exploreor</p>
+                        <p><em>A <strong>Weather</strong> visualization project</em></p>
+                        <p>| Python | Pandas | Matplotlib | HTML | CSS | Bootstrap | </p>
+                        <a href="Image/Projects/Weather_Web/index.html">
+                            <button type="button" class="btn btn-primary">Learn More</button>
+                        </a>
+                            
+                </div>
+            </div>
+        </div>      
+        </div>
+
+
+</div>
+
+<!--Content -- Github Projects -->
+<div class="container-fluid">
+        <!--Project Header-->
+        <div class="row">
+            <div class="col" style="text-align: center; padding-top: 100px; padding-bottom: 30px">
+                <h1 
+                    style="font-size: 50px; 
+                        text-shadow:lightcoral 1px 1px">
+                        <u>Github Projects</u>
+                </h1>
+            </div>
+        </div>
+    
+        </div>
+        
+    
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+                <!--Twitter-->
+            <li class="list-inline-item">
+                <a href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-internet-explorer fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            <!--Facebook-->
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            <!--Github-->
+            <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/EstellaYu">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Estella Yu 2019</p>
+        </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

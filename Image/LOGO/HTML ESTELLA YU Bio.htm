@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML ESTELLA YU Bio</title>
+
+    <!--Bootstrap Core css-->
+    <link href="Sytle/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="Sytle/vendor/jquery/jquery.js"></script>
+    <script src="Sytle/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="Sytle/vendor/startbootstrap-clean-blog/scss/clean-blog.scss">
+    <!--Customize css-->
+    <link href="Sytle/vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+    <script src="Sytle/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Sytle/style.css">
+    <!--Animatino css-->
+    <link href="Sytle/vendor/animate.css" rel="stylesheet" type="text/css">
+    
+    
+    
+</head>
+<!--<img class="animated bounceInDown" src="Image/LOGO/NAME_logo/logo_transparent_background.png"
+              alt="Estella_logo" width="40%" height="40%">-->
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h1 font-size:70px>Estella Yu</h1></a>
+            
+            <button class="navbar-toggler navbar-toggler-right" type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarResponsive" 
+                aria-controls="navbarResponsive" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                        <i class="fas fa-bars"> Menu</i>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item animated bounceInDown">
+                <a class="nav-link" href="index.html"><h4>Home</h4></a>
+            </li>
+            <li class="nav-item animated bounceInDown ">
+                <a class="nav-link" href="about.html"><h4>About</h3></a>
+            </li>
+            <li class="nav-item animated bounceInDown ">
+                <a class="nav-link" href="projects.html"><h4>Projects</h4></a>
+            </li>
+            <li class="nav-item animated bounceInDown">
+                <a class="nav-link" href="contact.html"><h4>Contact</h4></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+</nav>
+
+<!-- Page Header -->
+
+
+<!--Content-->
+<header class="hero-image">
+    <div class="container">
+        <div class="hero-text">
+            <img class="center" src="Image/LOGO/NAME_logo/white_logo_transparent_background.png"
+            alt="Estella_logo" sizes="40%">
+            <h2>Hi! This is Estella</h2>
+            <p>A researcher seeking the Beauty and Simplisity in Complex Systems</p>
+            <button>Hire me</button>
+        </div>
+    </div>
+</header>  
+<!-- Footer -->
+<footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                      <!--Twitter-->
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-internet-explorer fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <!--Facebook-->
+                    <li class="list-inline-item">
+                      <a target="_blank" href="#">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <!--Github-->
+                    <li class="list-inline-item">
+                      <a target="_blank" href="https://github.com/EstellaYu">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="copyright text-muted">Copyright &copy; Estella Yu 2019</p>
+                </div>
+              </div>
+            </div>
+</footer>
+
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
