@@ -28,13 +28,8 @@
   h6 {
     font-weight: 800;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  
-  h3{
-    font-weight: 100;
-    font-style: italic;
-    font-family: 'Lora', 'Times New Roman', serif;}
-  
+  } 
+
   /* PAGE FOOTER */
   .page-footer {
     background-color: whitesmoke;
@@ -42,11 +37,61 @@
     margin-top: 50px;
 }
 
+/* GITHUB CARDS */
 .github-card {
-  border: 1rem solid gainsboro;
   border-radius: 10px; 
-  background-color:gainsboro
+  background-color: black;
+  font-family: monospace; 
+  font-size: 1rem;
+  height: 350px;
+  margin-bottom: 1rem;
 }
+.github-card:hover{
+  box-shadow: black 1px 1px 10px,gainsboro 1px 1px 20px;
+  background-image: linear-gradient( rgba(255, 255, 255, .7), rgba(255, 255, 255, .3));
+  color: black;
+  transition: all 500ms;
+}
+
+.card-title{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow:white 1px 1px 5px;
+  font-family: monospace;
+  transition: all 500ms;
+  transform: translateY(4rem);
+}
+.github-card:hover .card-title{
+  transform: scale(1.1);
+  transform: translateY(10%);
+  transition: all 500ms;
+}
+
+.github-card .card-body h6{
+  color: white;
+  transform: translateY(4rem);
+  transition: all 500ms;
+}
+.github-card:hover .card-body h6{
+  color: black;
+  transform: translateY(10%);
+  transition: all 500ms;
+}
+
+.github-card .card-body p{
+  visibility: hidden;
+  transform: translateY(1rem)
+}
+.github-card:hover .card-body p{
+  transition: all 500ms;
+  visibility:visible;
+}
+
+.github-card .card-body .btn {
+  position: absolute;
+  top: 70%;
+}
+
   .center {
     display: block;
     margin-left: auto;
