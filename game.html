@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Estella Yu">
+    <meta name="description" content="Estella Yu Personal Project Web Page">
+    <meta name="keyword" content="HTML, CSS, Javascript, Bootstrap, Python, Github">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESTELLA YU Bio - Come Play Some Games</title>
+
+    <!--Bootstrap CSS-->
+    <link href="Sytle/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="Sytle/vendor/startbootstrap-clean-blog/scss/clean-blog.scss" rel="stylesheet" type="text/css">
+    <link href="Sytle/vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="Sytle/style.css">
+    <link href="Sytle/vendor/animate.css" rel="stylesheet" type="text/css">
+
+    <!--JAVASCRIPT-->
+    <script src="Sytle/vendor/bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+    <script src="Sytle/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" type="text/javascript"></script>   
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg font-light navbar-light fixed-top" id="mainNav">
+    <!-- NAVBRAND -->   
+    <a href="index.html">
+            <div class="navbar navbar-brand-games mr-auto">
+                    <h2 style="color: white"> 
+                        <strong>Estella Yu</strong>
+                    </h2>
+            </div>        
+    </a>    
+    
+    <!-- NAV-ITEMS -->      
+    <button class="navbar-toggler" type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarResponsive" 
+        aria-controls="navbarResponsive" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html"><strong>Home</strong></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html"><strong>About</strong></a>
+            </li>
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbardrop" 
+                    aria-haspopup="true" aria-expanded="false">
+                        <strong>Projects</strong>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Data visualization</a>
+                        <a class="dropdown-item" href="#">Database ETL</a>
+                        <a class="dropdown-item" href="#">Machine Learning</a>
+                        <a class="dropdown-item" href="#">Algorithms</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="game.html">
+                        <strong>Games</strong>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="Image/Resume:CV/EstellaYuResume-Data.pdf">
+                        <strong>Resume</strong>
+                    </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<header class="hero-image-games">
+        <div class="container">
+            <div class="hero-text-games">
+                <a href="game.html">
+                    <h1 class="center animated tada" style="font-size: 7rem; color: white">
+                        <strong>GAMES</strong>
+                    </h1>
+                </a>
+                <h4><em>Come play some games :)</em></h4>
+            </div>
+        </div>
+</header> 
+
+<!--Bulls and Cows-->
+<div class="container">
+<div class="jumbotron" style="margin-top: 5rem">
+    <div class="container bull-cow">
+        <ul class="list-inline">
+            <li class="list-inline-item animated bounceInLeft">
+                <img class="bull-img" src="Image/LOGO/bull_cow/bull.png">
+            </li>
+            <li class="list-inline-item animated bounceInLeft" id="bull">
+                <h1 class="display-4" style="z-index: 99">BULLS</h1>               
+            </li>
+            <li class="list-inline-item "><h1> & </h1></li>
+            <li class="list-inline-item animated bounceInRight">
+                    <img class="cow-img" src="Image/LOGO/bull_cow/cow.png">
+            </li>
+            <li class="list-inline-item animated bounceInRight" id='cow'>
+                <h1 class="display-4">COWS</h1>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-md-10">
+                <h3 class="lead">
+                    As simple as guessing a 4 digit number -- But how fast can you get it right? 
+                </h3>
+            </div>
+            <div class="col-md-1 mr-auto">
+                    <button type="button" class="btn btn-outline-primary" 
+                    style="border-radius: 5rem; position: relative; top:-30%">Start!
+                    </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer-games">
+    <div class="container">
+        <div class="row" style="margin-top:-2rem; margin-bottom:-3rem">
+        
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+            <!--EMAIL-->
+            <li class="list-inline-item">
+                <a href="#" data-toggle="tooltip" title="Email">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            <!--LINKEDIN-->
+            <li class="list-inline-item">
+                <a target="_blank" href="#" data-toggle="tooltip" title="LinedIn">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            <!--Github-->
+            <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/EstellaYu" data-toggle="tooltip" title="Github">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </li>
+            </ul>
+            <P class="copyright text-muted" style="font-size: 1rem"> 
+                &copy; Copyright <strong>Estella Yu</strong> 2019
+            </P>
+        </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

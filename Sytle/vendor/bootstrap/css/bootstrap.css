@@ -4186,6 +4186,23 @@ input[type="button"].btn-block {
   background-color:#FFCC00;
 }
 
+.navbar-brand-games {
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  background-color:darkblue;
+  border-radius: 25px;
+}
+
+.navbar-brand-games:hover, .navbar-brand-games:focus {
+  text-decoration:none;
+  background-color:cornflowerblue;
+}
+
 .navbar-nav {
   display: -ms-flexbox;
   display: flex;
