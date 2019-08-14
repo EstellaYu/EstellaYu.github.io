@@ -4179,6 +4179,7 @@ input[type="button"].btn-block {
   white-space: nowrap;
   background-color:goldenrod;
   border-radius: 25px;
+  text-decoration: none;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4187,20 +4188,24 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand-games {
-  display: inline-block;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
+  text-decoration: none;
+  border-radius: 25px; 
   background-color:darkblue;
-  border-radius: 25px;
 }
 
 .navbar-brand-games:hover, .navbar-brand-games:focus {
-  text-decoration:none;
+  text-decoration: none;
   background-color:cornflowerblue;
+}
+
+.navbar-brand-contact {
+  border-radius: 25px; 
+  background-color:peru;
+}
+
+.navbar-brand-contact:hover, .navbar-brand-contact:focus {
+  background-color: orange;
+  text-decoration: none !important;
 }
 
 .navbar-nav {

@@ -122,6 +122,14 @@
     background-size: cover;
     position: relative;
   }
+  .hero-image-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Image/LOGO/contactq.jpg");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
   .hero-image-project1 {
     background-image: linear-gradient(rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1)), url("../Image/Projects/Airbnb/aibnb_profile.jpeg");
