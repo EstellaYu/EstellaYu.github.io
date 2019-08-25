@@ -18,6 +18,7 @@
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
 		(function () {
+			function refreshCSS() {
 				var sheets = [].slice.call(document.getElementsByTagName("link"));
 				var head = document.getElementsByTagName("head")[0];
 				for (var i = 0; i < sheets.length; ++i) {
