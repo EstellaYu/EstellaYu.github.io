@@ -1,5 +1,12 @@
 var projects = [
     {
+        title: "US Health Indexes",
+        skill: "| Javascript | D3.js | Interactive Viz |",
+        abstract: "Which states are the healthiest?",
+        link_type: "Web Page",
+        href: "Image/Projects/D3_interactive_vis/index.html"
+    },
+    {
         title: "Belly button Biodiversity",
         skill: "| Javascript | Plotly | Flask | Heroku |",
         abstract: "They live in your belly button. Do you konw them?",
