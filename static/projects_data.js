@@ -1,5 +1,12 @@
 var projects = [
     {
+        title: "Where's the Earthquakes?",
+        skill: "| Javascript | leaflet | GeoJSON | Interactive Viz |",
+        abstract: "Where did earthquakes happend in the past week?",
+        link_type: "Web Page",
+        href: "Image/Projects/geomapping/index.html"
+    },
+    {
         title: "US Health Indexes",
         skill: "| Javascript | D3.js | Interactive Viz |",
         abstract: "Which states are the healthiest?",
