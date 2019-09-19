@@ -1,6 +1,6 @@
 var projects = [
     {
-        title: "Where's the Earthquakes?",
+        title: "Where were the earthquakes?",
         skill: "| Javascript | leaflet | GeoJSON | Interactive Viz |",
         abstract: "Where did earthquakes happend in the past week?",
         link_type: "Web Page",
